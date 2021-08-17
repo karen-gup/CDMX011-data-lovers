@@ -7,13 +7,13 @@ Nuestro primer prototipo de baja fidelidad estaba pensado para que el usuario vi
 Decidimos abandonar ese primer prototipo ya que requeria mas interacciones de parte del usuario y despues de recibir feedback decidimos hacer una sola pantalla en la que de inicio se mostrara la información a los usuarios. Igualmente se cambio el mostrar la información en tabla por mostrarlo en tarjetas, ya que así la información es mas ilustrativa y no tendriamos problemas al visitar la pagina desde dispositivos moviles o ipads.
 #### Prototipo de baja fidelidad
 
-![Prototipo de baja fidelidad]()
+![Prototipo de baja fidelidad](https://github.com/mirellgms/CDMX011-data-lovers/blob/Karen/proto%20Bf-definitivo.jpeg)
 
 
 
 
 #### Prototipo de alta fidelidad
-![Prototipo de alta fidelidad]()
+![Prototipo de alta fidelidad](https://github.com/mirellgms/CDMX011-data-lovers/blob/Karen/Prototipo%20de%20alta%20fidelidad%20olimpic.JPG)
 
 
 ## Resumen del proyecto

@@ -29,21 +29,28 @@ export function filterBySport(data, sport){
  export function sorter(data, select){
    if(select=="De A-Z"){
      data.sort(function(a,b){
-      if (a.name>b.name){
+       a= a.name.toLowerCase();
+       b= b.name.toLowerCase();
+      if (a>b){
         return 1;
-      } else if (a.name<b.name){
+      } if (a<b){
         return -1;
       }
       return 0;
     });
-  }else if(select=="De Z-A")
+    return data;
+  }
+  if(select=="De Z-A"){
     data.sort(function(a,b){
-      if (a.name<b.name){
+      a= a.name.toLowerCase();
+      b= b.name.toLowerCase();
+      if (a<b){
         return 1;
-      } else if (a.name>b.name){
+      } if (a>b){
         return -1;
       }
       return 0;
     })
     return data;
+  }
 }

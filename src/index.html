@@ -24,10 +24,15 @@
     <button class="menubtn">DEPORTES</button>
     <button class="menubtn">OLIMPIADAS</button>
   </nav>
-<section class="presentation">Los juegos Olímpicos de Río de Janeiro, fueron un evento multideportivo internacional,
+  <section class="presentation">Los juegos Olímpicos de Río de Janeiro, fueron un evento multideportivo internacional,
     celebrado en la ciudad de Río de Janeiro, Brasil. La elección de Río marcó la primera vez que se realiza en un país
     sudamericano.</section>
   <section class="filter" id="filter">
+      <select id="sort" class="selector">
+        <option>Ordenar alfabeticamente</option>
+        <option>De A-Z</option>
+        <option>De Z-A</option>
+      </select>
       <select id="countries" class="selector">
         <option>Seleccionar país</option>
         <option>Algeria</option>
@@ -159,11 +164,6 @@
         <option>Water Polo</option>
         <option>Weightlifting</option>
         <option>Wrestling</option>
-      </select>
-      <select id="sort" class="selector">
-        <option>Ordenar</option>
-        <option>De A-Z</option>
-        <option>De Z-A</option>
       </select>
   </section>
   <div id="root"></div>
