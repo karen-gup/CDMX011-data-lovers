@@ -49,7 +49,7 @@ padding: 10px;
     font-size: 27px;
     background: #B2F02E;
     border-radius: 12px;
-    width: 302px;
+    width: 379px;
     height:42px;
     left: 353px;
     top: 181px;
@@ -57,9 +57,12 @@ padding: 10px;
     }
 .card{
 width: 350px;
-height: 220px;
+height: 221px;
 border-radius: 10px;  
 margin: 10px;
+}
+.cardName{
+  margin-top: 10px;
 }
 #root{
 width: 100%;
@@ -73,7 +76,7 @@ flex-wrap: wrap;
     color: #f6f6f6;
     margin-top: 2px;
     text-align: center;
-    line-height: 1.8;
+    line-height: 1.5;
     background: rgba(13, 72, 160, 0.719);
 }
 @media screen and (max-width: 1000px) {

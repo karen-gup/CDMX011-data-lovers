@@ -9,9 +9,9 @@ const selectOrder = document.getElementById("sort");
 function mostrarData(data) {
     let allcards = ""
     data.forEach((athlete) => {
-        allcards += `<div class="card icon cardName contentcard">
-        <p><strong>${athlete.name.toUpperCase()}</strong></p>
-        <img src="./${athlete.medal}.png">
+        allcards += `<div class="card contentcard">
+        <p class="cardName"><strong>${athlete.name.toUpperCase()}</strong></p>
+        <img class="icon" src="./${athlete.medal}.png">
         <p>${athlete.medal}</p>
         <p>${athlete.team} ${athlete.noc}</p>
         <p>${athlete.event}</p>
