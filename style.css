@@ -9,75 +9,78 @@ body{
   justify-content: center;
 }
 .banner{
-width: 100%;
-display: flex;
+  width: 100%;
+  display: flex;
 }
 .menu{
-display: flex;
-margin: auto;
+  display: flex;
+  margin: auto;
 }
 .menubtn {
-background-color: white;
-color: #B0005B;
-font-size: 26px;
-font-family: 'Aclonica', sans-serif;
-border: none;
-width: 25%;
-height: 55px;
+  background-color: white;
+  color: #B0005B;
+  font-size: 26px;
+  font-family: 'Aclonica', sans-serif;
+  border: none;
+  width: 25%;
+  height: 55px;
 }
 .menubtn:hover {
   display: block;
   background-color: #acf690;
 }
 .presentation{
-font-family: 'Montserrat', sans-serif; 
-font-size: 18px;
-color: #FDFB5D;
-align-self: center;
-padding: 10px;
+  font-family: 'Montserrat', sans-serif; 
+  font-size: 24px;
+  color: #F1F189;
+  text-align: center;
+  align-self: center;
+  padding: 20px;
 }
-
 .filter{
   width: 100%;
   display: flex;
   flex-wrap: wrap;  
-  margin: 9px;
+  padding: 10px;
 }
 .selector{
-    font-family: 'Aldrich', sans-serif;  
-    color:#076F8F;
-    font-size: 27px;
-    background: #B2F02E;
-    border-radius: 12px;
-    width: 379px;
-    height:42px;
-    left: 353px;
-    top: 181px;
-    margin: 15px;
-    }
+  font-family: 'Aldrich', sans-serif;  
+  color:#076F8F;
+  font-size: 27px;
+  background: #B2F02E;
+  border-radius: 12px;
+  width: 379px;
+  height:42px;
+  left: 353px;
+  top: 181px;
+  margin: 15px;
+}
 .card{
-width: 350px;
-height: 221px;
-border-radius: 10px;  
-margin: 10px;
+  width: 350px;
+  height: 221px;
+  border-radius: 10px;  
+  margin: 10px;
+}
+.icon{
+  padding: 1px;
 }
 .cardName{
   margin-top: 10px;
 }
 #root{
-width: 100%;
-margin: 5px;
-display: flex;
-flex-wrap: wrap;
+  width: 100%;
+  margin: 5px;
+  display: flex;
+  flex-wrap: wrap;
 }
 .contentcard{
-    font-size: 15px;
-    font-family: 'Montserrat'; 
-    color: #f6f6f6;
-    margin-top: 2px;
-    text-align: center;
-    line-height: 1.5;
-    background: rgba(13, 72, 160, 0.719);
+  font-size: 15px;
+  font-family: 'Montserrat'; 
+  color: #f6f6f6;
+  margin-top: 2px;
+  text-align: center;
+  line-height: 1.5;
+  background: rgba(13, 72, 160, 0.719);
 }
 @media screen and (max-width: 1000px) {
   .menubtn {
@@ -85,7 +88,7 @@ flex-wrap: wrap;
     height: 45px;
   }
   .presentation{
-  font-size: 15px ;
+    font-size: 15px ;
   }
 }
 @media screen and (max-width:570px) {
@@ -98,6 +101,8 @@ flex-wrap: wrap;
   }
   .presentation{
   font-size: 10px ;
+  color:#0f0d7a;
+  ;
   }
   .selector{
     font-size: 18px;

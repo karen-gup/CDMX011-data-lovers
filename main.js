@@ -19,27 +19,25 @@ function mostrarData(data) {
     });
     document.getElementById("root").innerHTML = allcards;
 }
-mostrarData(datos);
+    mostrarData(datos);
 //Muestra filtro por team
-selectByTeam.addEventListener("change", function (e) {
-    const allData = (filterByTeam(datos, e.target.value));
-    mostrarData(allData);
-});
-
+selectByTeam.addEventListener("change", function (e) {  
+    const allData = (filterByTeam(datos, e.target.value));  
+        mostrarData(allData);
+}); 
 //Muestra filtro por medalla
-selectByMedal.addEventListener("change", function (e) {
-    const allData = (filterByMedal(datos, e.target.value))
-    mostrarData(allData);
-});
+selectByMedal.addEventListener("change", function (e) { 
+    const allData = (filterByMedal(datos, e.target.value));
+        mostrarData(allData);
+}); 
 
 //Mostrar tarjetas por deporte elegido
-selectBySport.addEventListener("change", function (e) {
-    const allData = (filterBySport(datos, e.target.value))
-    mostrarData(allData);
-});
-
+selectBySport.addEventListener("change", function (e) { 
+    const allData = (filterBySport(datos, e.target.value));
+        mostrarData(allData);
+}); 
 //Selector para ordenar de A-Z y de Z-A
-selectOrder.addEventListener("change", function (e) {
-    const allData = (sorter(datos, e.target.value))
-    mostrarData(allData);
-    });
+selectOrder.addEventListener("change", function (e) {   
+    const allData = (sorter(datos, e.target.value));
+        mostrarData(allData);
+}); 
