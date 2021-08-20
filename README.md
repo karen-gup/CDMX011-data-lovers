@@ -5,6 +5,12 @@ Los juegos Olímpicos de Río de Janeiro, fueron un evento multideportivo intern
 ### Definición del producto
 Nuestro primer prototipo de baja fidelidad estaba pensado para que el usuario viera una pantalla principal en el que se le invitaba a conocer sobre los atletas olimpicos y al ingresar mediante un boton "Ver más", se mostraria una tabla con la información de los atletas olimpicos.
 Decidimos abandonar ese primer prototipo ya que requeria mas interacciones de parte del usuario y despues de recibir feedback decidimos hacer una sola pantalla en la que de inicio se mostrara la información a los usuarios. Igualmente se cambio el mostrar la información en tabla por mostrarlo en tarjetas, ya que así la información es mas ilustrativa y no tendriamos problemas al visitar la pagina desde dispositivos moviles o ipads.
+### Primeros prototipos
+![Prototipo de baja fidelidad 1](https://github.com/karen-gup/CDMX011-data-lovers/blob/72f6390068930fb411ab7a7283d3e1c45386d6c5/protoBf-1.jpeg)
+![Prototipo de baja fidelidad 2](https://github.com/karen-gup/CDMX011-data-lovers/blob/72f6390068930fb411ab7a7283d3e1c45386d6c5/protoBf-2.jpeg)
+
+![Prototipo de alta fidelidad](https://github.com/karen-gup/CDMX011-data-lovers/blob/72f6390068930fb411ab7a7283d3e1c45386d6c5/ProtoAf-1.jpeg)
+
 #### Prototipo de baja fidelidad
 
 ![Prototipo de baja fidelidad](https://github.com/mirellgms/CDMX011-data-lovers/blob/Karen/proto%20Bf-definitivo.jpeg)
